@@ -60,16 +60,6 @@ eval("\n\nvar isOldIE = function isOldIE() {\n  var memo;\n  return function mem
 
 /***/ }),
 
-/***/ "./src/images/ivan-torres-MQUqbmszGGM-unsplash.jpg":
-/*!*********************************************************!*\
-  !*** ./src/images/ivan-torres-MQUqbmszGGM-unsplash.jpg ***!
-  \*********************************************************/
-/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
-
-eval("module.exports = __webpack_require__.p + \"9e176672cc68db62fea7.jpg\";\n\n//# sourceURL=webpack:///./src/images/ivan-torres-MQUqbmszGGM-unsplash.jpg?");
-
-/***/ }),
-
 /***/ "./src/MrDafoe-Regular.ttf":
 /*!*********************************!*\
   !*** ./src/MrDafoe-Regular.ttf ***!
@@ -77,6 +67,16 @@ eval("module.exports = __webpack_require__.p + \"9e176672cc68db62fea7.jpg\";\n\n
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 eval("module.exports = __webpack_require__.p + \"7cb484b7c593238242ae.ttf\";\n\n//# sourceURL=webpack:///./src/MrDafoe-Regular.ttf?");
+
+/***/ }),
+
+/***/ "./src/images/ivan-torres-MQUqbmszGGM-unsplash.jpg":
+/*!*********************************************************!*\
+  !*** ./src/images/ivan-torres-MQUqbmszGGM-unsplash.jpg ***!
+  \*********************************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("module.exports = __webpack_require__.p + \"8e3e99661e3618d282d7.jpg\";\n\n//# sourceURL=webpack:///./src/images/ivan-torres-MQUqbmszGGM-unsplash.jpg?");
 
 /***/ }),
 
