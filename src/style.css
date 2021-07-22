@@ -4,6 +4,16 @@
     font-weight: 600;
     font-style: normal;
 }
+body {
+    background-image: url('./images/ivan-torres-MQUqbmszGGM-unsplash.jpg');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#content {
+    text-align: -webkit-center;
+}
 
 #header-container {
     overflow: hidden;
@@ -12,10 +22,12 @@
     top: 0;
     left: 0;
     width: 100%;
-    height: 8em;
+    height: 12em;
     padding: .5em;
     display: flex;
     justify-content: center;
+    flex-direction: column;
+    align-items: center;
 }
 
 #header {
@@ -24,14 +36,115 @@
     font-family: 'MrDafoe-Regular';
 }
 
-#pizza-background {
-    background-image: url('./images/ivan-torres-MQUqbmszGGM-unsplash.jpg');
-    height: 100%;
+#tab-container {
+    display: flex;
+    color: white;
+}
+
+.tab {
     padding: 8px;
-    margin: -8px;
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-    background-size: cover;
+    font-size: 1.5em;
+}
+
+.tab:hover {
+    color: rgb(163, 162, 162);
+}
+
+.tab:active {
+    color: white;
+}
+
+#tab-box-container {
+    display: flex;
+    justify-content: center;
+    width: 50%;
+}
+
+#home-container, #menu-container, #contact-container {
+    margin-top: 14.5em;
+    border: black;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.25);
+}
+
+#menu-container {
+    display: flex;
+    justify-content: space-evenly;
+    flex: 1;
+}
+
+#contact-container {
+    display: flex;
+    flex-direction: column;
+}
+
+#pizza-box, #italian-box {
+    font-size: 1.6em;
+    display: flex;
+    flex-direction: column;
+    margin-top: 45px;
+}
+
+#divider {
+    height: 400px;
+    background-color: white;
+    width: 5px;
+    margin: 50px 0px;
+}
+
+#sandwich-image, #pasta-image {
+    height: 250px;
+    width: 250px;
+}
+
+.menu-btn {
+    width: fit-content;
+    align-self: center;
+    margin-top: 45px;
+    padding: 10px;
+}
+
+.tagline-top {
+    font-size: 1.6em;
+    text-align: center;
+    margin-bottom: -1em;
+}
+
+.tagline-middle {
+    font-size: 1.6em;
+    text-align: center;
+}
+
+.tagline-bottom {
+    font-size: 1.6em;
+    text-align: center;
+    margin-bottom: -1em;
+}
+
+#home-image {
+    height: 65%;
+    width: 40%;
+}
+
+#contact-message{
+    font-size: 3.6em;
+    padding: 25px;
+}
+
+#contact-image {
+    height: 45%;
+    width: 45%;
+    padding-left: 30%;
+}
+
+#address {
+    font-size: 1.6em;
+    padding: 10px;
+}
+
+#phone {
+    font-size: 1em;
+    padding: 10px;
 }
 
 #footer-container {
