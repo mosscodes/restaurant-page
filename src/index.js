@@ -1,4 +1,10 @@
 import './style.css';
+import Sandwich from './images/amy-tran-pTcexK1TB98-unsplash.jpg'
+import HomeIMG from './images/kama-tulkibayeva-BpugFbwxOfw-unsplash.jpg'
+import MapIMG from './images/mika-baumeister-nDciGidCdQo-unsplash.jpg'
+import Pasta from './images/nerfee-mirandilla-KxcYYoJZehI-unsplash.jpg'
+
+
 
 const restaurantHTML = (() => {
     const content = document.querySelector('#content');
@@ -69,7 +75,7 @@ const tabHTMLTree = (() => {
     tagline2.innerText = '"Tutti sono i benvenuti nella mia cucina"';
     tagline2.setAttribute('class', 'tagline-middle');
     const homeImage = document.createElement('img');
-    homeImage.src = "../src/images/kama-tulkibayeva-BpugFbwxOfw-unsplash.jpg";
+    homeImage.src = HomeIMG;
     homeImage.setAttribute('id', 'home-image');
     const tagline3 = document.createElement('p');
     tagline3.innerText = 'Everybody is welcome in my kitchen';
@@ -94,7 +100,7 @@ const tabHTMLTree = (() => {
     pizzaText.innerText = "Pizza & Sandwiches"
     pizzaBox.appendChild(pizzaText);
     const sandwichImage = document.createElement('img');
-    sandwichImage.src = "../src/images/amy-tran-pTcexK1TB98-unsplash.jpg";
+    sandwichImage.src = Sandwich;
     sandwichImage.setAttribute('id', 'sandwich-image')
     pizzaBox.appendChild(sandwichImage)
     const pizzaMenu = document.createElement('button');
@@ -113,7 +119,7 @@ const tabHTMLTree = (() => {
     italianText.innerText = "Entrees & Sides"
     italianBox.appendChild(italianText);
     const pastaImage = document.createElement('img');
-    pastaImage.src = "../src/images/nerfee-mirandilla-KxcYYoJZehI-unsplash.jpg";
+    pastaImage.src = Pasta;
     pastaImage.setAttribute('id', 'pasta-image');
     italianBox.appendChild(pastaImage)
     const italianMenu = document.createElement('button')
@@ -129,7 +135,7 @@ const tabHTMLTree = (() => {
     const contactMessage = document.createElement('div')
     contactMessage.setAttribute('id', 'contact-message')
     const contactImage = document.createElement('img')
-    contactImage.src = "../src/images/mika-baumeister-nDciGidCdQo-unsplash.jpg"
+    contactImage.src = MapIMG;
     contactImage.setAttribute('id', 'contact-image')
     const address = document.createElement('div');
     address.setAttribute('id', 'address')
